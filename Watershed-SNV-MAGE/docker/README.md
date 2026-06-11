@@ -1,0 +1,2 @@
+Dockerfile for the [`loftee` Docker container](https://hub.docker.com/r/manninglab/loftee) used in the [Watershed-SNV WDL](https://dockstore.org/workflows/github.com/schatzlab/Watershed-SNV-WDL/Watershed-SNV:main).
+This is based on the [ensemblorg/ensembl-vep container](https://hub.docker.com/r/ensemblorg/ensembl-vep), but additionally installs the [loftee plugin](https://github.com/konradjk/loftee). Also installs `bcftools` and `samtools`.
